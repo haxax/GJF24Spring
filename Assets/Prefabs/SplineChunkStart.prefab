@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _angularSections
-      value: 12
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.size
@@ -18,19 +18,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[0]._chances
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
-      propertyPath: _spawnPool._pickables.Array.data[1]._chances
       value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[1]._chances
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[2]._chances
-      value: 50
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[3]._chances
-      value: 500
+      value: 770
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[0]._pickable
@@ -95,7 +95,7 @@ PrefabInstance:
     - target: {fileID: 8524040492251332622, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _nextChunkPrefab
       value: 
-      objectReference: {fileID: 8524040492251332622, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      objectReference: {fileID: 5887437098981700384, guid: 2584d36210c1b8f4a8566d3c9c84f2db, type: 3}
     - target: {fileID: 9203007971487222303, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: m_Name
       value: SplineChunkStart

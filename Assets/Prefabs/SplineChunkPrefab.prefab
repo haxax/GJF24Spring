@@ -93,8 +93,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _chunk: {fileID: 8524040492251332622}
-  _angularSections: 12
-  _verticalSections: 10
+  _angularSections: 16
+  _verticalSections: 20
   _spawnPool:
     _pickables:
     - _pickable: {fileID: 7562032097203545912, guid: 711c9c4adb1201441b9163e96ac4d17e, type: 3}
@@ -108,9 +108,9 @@ MonoBehaviour:
     - _pickable: {fileID: 6216836511984179202, guid: 939536ca3a4ce1c4f8203b955b632525, type: 3}
       _chances: 100
     - _pickable: {fileID: 9104934913724789605, guid: 47047bd87dea6bd4d82fed8fa71935c3, type: 3}
-      _chances: 10
+      _chances: 4
     - _pickable: {fileID: 3113068444485787520, guid: dccb52103af665d48afbedb3291c3e7b, type: 3}
-      _chances: 10
+      _chances: 4
     - _pickable: {fileID: 5081776893291325426, guid: 2f0a839e40b760848b91481e8ffdf5ed, type: 3}
       _chances: 100
     - _pickable: {fileID: 915583154509625221, guid: 9b411417dd7d8b34d860b27f0fd816e9, type: 3}
@@ -126,7 +126,7 @@ MonoBehaviour:
     - _pickable: {fileID: 2818166765113057458, guid: d107b1fa34819a5499d1887380e698cd, type: 3}
       _chances: 1
     - _pickable: {fileID: 0}
-      _chances: 410
+      _chances: 422
     - _pickable: {fileID: 7166210509874264279, guid: f56966d124e0bf4429216a4698d67576, type: 3}
       _chances: 2
     _totalOdds: 1000
