@@ -200,6 +200,7 @@ public class SplineChunk : Poolable
 	/// <summary> Despawns the chunk and all objects on it. </summary>
 	public void DestroyChunk()
 	{
+		if (PreviousChunk == this) { Debug.LogError("Trying to destroy itself!"); return; }
 		// Despawn possible previous chunks too.
 		if (PreviousChunk != null) { PreviousChunk.DestroyChunk(); }
 
@@ -207,7 +208,9 @@ public class SplineChunk : Poolable
 		Registry.ClearList();
 
 		// Null surrounding splines so that the chunk can be reset properly when get from pool.
+		if (PreviousChunk != null) { PreviousChunk.NextChunk = null; }
 		PreviousChunk = null;
+		if (NextChunk != null) { NextChunk.PreviousChunk = null; }
 		NextChunk = null;
 		ReturnToPool();
 	}

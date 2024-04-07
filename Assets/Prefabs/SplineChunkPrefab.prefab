@@ -126,5 +126,7 @@ MonoBehaviour:
     - _pickable: {fileID: 2818166765113057458, guid: d107b1fa34819a5499d1887380e698cd, type: 3}
       _chances: 1
     - _pickable: {fileID: 0}
-      _chances: 412
+      _chances: 410
+    - _pickable: {fileID: 7166210509874264279, guid: f56966d124e0bf4429216a4698d67576, type: 3}
+      _chances: 2
     _totalOdds: 1000

@@ -18,67 +18,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.size
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[0]._chances
-      value: 40
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[1]._chances
-      value: 40
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[2]._chances
-      value: 100
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[3]._chances
-      value: 100
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[4]._chances
-      value: 100
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[5]._chances
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[6]._chances
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[7]._chances
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
-      propertyPath: _spawnPool._pickables.Array.data[8]._chances
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
-      propertyPath: _spawnPool._pickables.Array.data[9]._chances
-      value: 20
+      propertyPath: _spawnPool._pickables.Array.data[8]._chances
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
-      propertyPath: _spawnPool._pickables.Array.data[10]._chances
+      propertyPath: _spawnPool._pickables.Array.data[9]._chances
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[10]._chances
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[11]._chances
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[12]._chances
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[13]._chances
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[14]._chances
-      value: 412
+      value: 409
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[15]._chances
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[5]._pickable
