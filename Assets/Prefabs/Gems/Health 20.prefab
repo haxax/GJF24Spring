@@ -446,7 +446,7 @@ MonoBehaviour:
         outWeight: 0.13629214
       - serializedVersion: 3
         time: 0.5
-        value: 1
+        value: 0.8
         inSlope: 0
         outSlope: 0
         tangentMode: 34
@@ -660,7 +660,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 65806872132693728, guid: d2dbc9b09b13e084a98079c245d4c928, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
