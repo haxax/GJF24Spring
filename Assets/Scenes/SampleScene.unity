@@ -813,7 +813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Boat Ride 3000
+  m_text: Gem Chase Boat Pro 3000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a30c49afed686eb43933c0b85f1da168, type: 2}
   m_sharedMaterial: {fileID: 2444345936822393824, guid: a30c49afed686eb43933c0b85f1da168, type: 2}

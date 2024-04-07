@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SplineMovementController : SplineMovement
 {
@@ -9,7 +10,6 @@ public class SplineMovementController : SplineMovement
 
 	[Tooltip("How fast the boat rotates back to zero rotation. 2 = 0.5 second to zero rotation.")]
 	[SerializeField] private float _rotationDecelaration = 0.5f;
-
 
 	protected override void Update()
 	{
@@ -20,6 +20,7 @@ public class SplineMovementController : SplineMovement
 		// Read rotation input.
 		if (Input.GetKey(KeyCode.LeftArrow)) { CurrentRotationState += _rotationAccelaration * Time.deltaTime; }
 		if (Input.GetKey(KeyCode.RightArrow)) { CurrentRotationState -= _rotationAccelaration * Time.deltaTime; }
+
 
 		// Keep CurrenTotationState between -1 to 1.
 		CurrentRotationState = Mathf.Clamp(CurrentRotationState, -1f, 1f);
