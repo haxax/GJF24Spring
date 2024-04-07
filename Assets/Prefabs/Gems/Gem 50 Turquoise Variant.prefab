@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &296013250901154628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2933116378915350184}
+    m_Modifications:
+    - target: {fileID: 1323412157039684, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_Name
+      value: gem_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+--- !u!4 &293985857829590280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4456248622599756, guid: 88a92133eaea34cadb25bb336e652a9c, type: 3}
+  m_PrefabInstance: {fileID: 296013250901154628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2208984294928813926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 811092066208936055, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: _amount
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378927640028886035, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_Name
+      value: Gem 50 Turquoise Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146719698626918268, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126691982829302014, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      propertyPath: _poolableId
+      value: Gem 50 Turquoise Variant_5326
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3896570585106819534, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 293985857829590280}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+--- !u!4 &2933116378915350184 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3896570585106819534, guid: e86822aea2fceed468c9a7345d2b9461, type: 3}
+  m_PrefabInstance: {fileID: 2208984294928813926}
+  m_PrefabAsset: {fileID: 0}

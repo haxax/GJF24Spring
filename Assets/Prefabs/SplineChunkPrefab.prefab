@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9203007971487222303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7182610815144014216}
+  - component: {fileID: 8524040492251332622}
+  - component: {fileID: 3479266842149113507}
+  m_Layer: 0
+  m_Name: SplineChunkPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7182610815144014216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9203007971487222303}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8524040492251332622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9203007971487222303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f068ccd40af5288459bd2d94e506cac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _poolableId: SplineChunkPrefab_7328
+  OnInstantiateE:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGetFromPoolE:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3479266842149113507}
+        m_TargetAssemblyTypeName: ChunkSpawner, Assembly-CSharp
+        m_MethodName: SpawnObjects
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnReturnToPoolE:
+    m_PersistentCalls:
+      m_Calls: []
+  _nextChunkPrefab: {fileID: 7778914816304367104, guid: 5ed378360a44a3040a4296cb9fce16ff, type: 3}
+  _tangentLength: 5
+  _knotRadiusRange: {x: 50, y: 200}
+  _knotHeightIncreaseRange: {x: 50, y: 200}
+  _splineRadius: 15
+  _splineEdges: 16
+  _splineMaterials:
+  - {fileID: 2100000, guid: af474a14e2597f646ba884951ed47f43, type: 2}
+  - {fileID: 2100000, guid: 7a43ac8dfbc17cb42b593c24356f11bd, type: 2}
+  _spline: {fileID: 0}
+  _extrude: {fileID: 0}
+  _objectRegistry:
+    _attachedObjects: []
+--- !u!114 &3479266842149113507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9203007971487222303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03e7c17477d5d3499d82fbf8728c503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chunk: {fileID: 8524040492251332622}
+  _angularSections: 12
+  _verticalSections: 10
+  _spawnPool:
+    _pickables:
+    - _pickable: {fileID: 7562032097203545912, guid: 711c9c4adb1201441b9163e96ac4d17e, type: 3}
+      _chances: 40
+    - _pickable: {fileID: 8278110404377453228, guid: 994f900712ee4a24bba63678c7b6c941, type: 3}
+      _chances: 40
+    - _pickable: {fileID: 912826823169266615, guid: 13e133002547e5f48991af7761f4bcaf, type: 3}
+      _chances: 100
+    - _pickable: {fileID: 8032917227002278407, guid: d734d780d33459e4fb7dad4df0b18705, type: 3}
+      _chances: 100
+    - _pickable: {fileID: 6216836511984179202, guid: 939536ca3a4ce1c4f8203b955b632525, type: 3}
+      _chances: 100
+    - _pickable: {fileID: 9104934913724789605, guid: 47047bd87dea6bd4d82fed8fa71935c3, type: 3}
+      _chances: 10
+    - _pickable: {fileID: 3113068444485787520, guid: dccb52103af665d48afbedb3291c3e7b, type: 3}
+      _chances: 10
+    - _pickable: {fileID: 5081776893291325426, guid: 2f0a839e40b760848b91481e8ffdf5ed, type: 3}
+      _chances: 100
+    - _pickable: {fileID: 915583154509625221, guid: 9b411417dd7d8b34d860b27f0fd816e9, type: 3}
+      _chances: 50
+    - _pickable: {fileID: 7444493608195385844, guid: 388fc9b3b1da8e149b802612ad5ee2c7, type: 3}
+      _chances: 20
+    - _pickable: {fileID: 4652353373577496037, guid: 72c57ae8cc9041e4ab3aa7e5d9011692, type: 3}
+      _chances: 10
+    - _pickable: {fileID: 7695429517510269544, guid: ccb16851a292b7c40ab56f2394c7fc77, type: 3}
+      _chances: 5
+    - _pickable: {fileID: 6921862769890574232, guid: 35b7db75b3bd8c743b8c2cde11c035fb, type: 3}
+      _chances: 2
+    - _pickable: {fileID: 2818166765113057458, guid: d107b1fa34819a5499d1887380e698cd, type: 3}
+      _chances: 1
+    - _pickable: {fileID: 0}
+      _chances: 412
+    _totalOdds: 1000

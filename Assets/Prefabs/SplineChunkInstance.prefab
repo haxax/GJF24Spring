@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2143493957524882958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._totalOdds
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[0]._chances
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[1]._chances
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[2]._chances
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[3]._chances
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[4]._chances
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[5]._chances
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[6]._chances
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[7]._chances
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[8]._chances
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[9]._chances
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[10]._chances
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[11]._chances
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[12]._chances
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[13]._chances
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[14]._chances
+      value: 412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[5]._pickable
+      value: 
+      objectReference: {fileID: 9104934913724789605, guid: 47047bd87dea6bd4d82fed8fa71935c3, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[6]._pickable
+      value: 
+      objectReference: {fileID: 3113068444485787520, guid: dccb52103af665d48afbedb3291c3e7b, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[7]._pickable
+      value: 
+      objectReference: {fileID: 5081776893291325426, guid: 2f0a839e40b760848b91481e8ffdf5ed, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[8]._pickable
+      value: 
+      objectReference: {fileID: 915583154509625221, guid: 9b411417dd7d8b34d860b27f0fd816e9, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[9]._pickable
+      value: 
+      objectReference: {fileID: 7444493608195385844, guid: 388fc9b3b1da8e149b802612ad5ee2c7, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[10]._pickable
+      value: 
+      objectReference: {fileID: 4652353373577496037, guid: 72c57ae8cc9041e4ab3aa7e5d9011692, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[11]._pickable
+      value: 
+      objectReference: {fileID: 7695429517510269544, guid: ccb16851a292b7c40ab56f2394c7fc77, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[12]._pickable
+      value: 
+      objectReference: {fileID: 6921862769890574232, guid: 35b7db75b3bd8c743b8c2cde11c035fb, type: 3}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[13]._pickable
+      value: 
+      objectReference: {fileID: 2818166765113057458, guid: d107b1fa34819a5499d1887380e698cd, type: 3}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524040492251332622, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _prefab
+      value: 
+      objectReference: {fileID: 8524040492251332622, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+    - target: {fileID: 8524040492251332622, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _poolableId
+      value: SplineChunkInstance_3057
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524040492251332622, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _nextChunkPrefab
+      value: 
+      objectReference: {fileID: 8524040492251332622, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+    - target: {fileID: 9203007971487222303, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: m_Name
+      value: SplineChunkInstance
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0f88cf454f35894c878e0e046063980, type: 3}
