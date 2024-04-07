@@ -17,6 +17,10 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[0]._chances
       value: 30
       objectReference: {fileID: 0}
@@ -70,12 +74,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[14]._chances
-      value: 422
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[15]._chances
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[16]._chances
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[16]._pickable
+      value: 
+      objectReference: {fileID: 2194540428663390957, guid: 0a781f6c23a40b64aa0f6336ff400522, type: 3}
     - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

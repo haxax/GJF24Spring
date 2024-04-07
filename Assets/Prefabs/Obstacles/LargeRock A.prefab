@@ -637,6 +637,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _onHpUpdate:
+    m_PersistentCalls:
+      m_Calls: []
   _onDeath:
     m_PersistentCalls:
       m_Calls:

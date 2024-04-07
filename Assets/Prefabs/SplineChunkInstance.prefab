@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.size
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[0]._chances
@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[14]._chances
-      value: 509
+      value: 505
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[15]._chances

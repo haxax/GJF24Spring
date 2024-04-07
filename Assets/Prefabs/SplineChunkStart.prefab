@@ -33,6 +33,10 @@ PrefabInstance:
       value: 770
       objectReference: {fileID: 0}
     - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[4]._chances
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: _spawnPool._pickables.Array.data[0]._pickable
       value: 
       objectReference: {fileID: 5081776893291325426, guid: 2f0a839e40b760848b91481e8ffdf5ed, type: 3}
@@ -48,6 +52,10 @@ PrefabInstance:
       propertyPath: _spawnPool._pickables.Array.data[3]._pickable
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3479266842149113507, guid: d0f88cf454f35894c878e0e046063980, type: 3}
+      propertyPath: _spawnPool._pickables.Array.data[4]._pickable
+      value: 
+      objectReference: {fileID: 2194540428663390957, guid: 0a781f6c23a40b64aa0f6336ff400522, type: 3}
     - target: {fileID: 7182610815144014216, guid: d0f88cf454f35894c878e0e046063980, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

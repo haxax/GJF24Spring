@@ -61,6 +61,7 @@ public class SpecialActionsBehaviour : MonoBehaviour
 		Keyframe[] rotationKeys = _rotationTarget.Evaluator.Curve.keys;
 		rotationKeys[0].value = _splineTransform.Rotation;
 
+		// Set rotation direction based on boat rotation.
 		if (_splineMovement.CurrentRotationState > 0f)
 		{ rotationKeys[rotationKeys.Length - 1].value = _splineTransform.Rotation + 180f; }
 		else { rotationKeys[rotationKeys.Length - 1].value = _splineTransform.Rotation - 180f; }

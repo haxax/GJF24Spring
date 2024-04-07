@@ -20,6 +20,9 @@ public class HealthBox : MonoBehaviour
 	[SerializeField] private UnityEvent<float> _onTakeDamage = new UnityEvent<float>();
 	public UnityEvent<float> OnTakeDamage => _onTakeDamage;
 
+	[Tooltip("Invoked whenever HP changes.")]
+	[SerializeField] private UnityEvent<float> _onHpUpdate = new UnityEvent<float>();
+	public UnityEvent<float> OnHpUpdate => _onHpUpdate;
 
 	[Tooltip("Invoked whenever CurrentHp goes to 0.")]
 	[SerializeField] private UnityEvent _onDeath = new UnityEvent();
@@ -28,7 +31,7 @@ public class HealthBox : MonoBehaviour
 
 	private float _currenHp = 0f;
 	/// <summary> Amount of the HP at the moment. Between 0 and MaxHp. </summary>
-	public float CurrentHp { get => _currenHp; private set { _currenHp = Mathf.Clamp(value, 0.0f, MaxHp); } }
+	public float CurrentHp { get => _currenHp; private set { _currenHp = Mathf.Clamp(value, 0.0f, MaxHp); OnHpUpdate.Invoke(_currenHp); } }
 
 	public bool IsDead { get; private set; } = true;
 
@@ -51,6 +54,10 @@ public class HealthBox : MonoBehaviour
 		IsDead = false;
 		_previousCollisionTimeStamp = 0;
 	}
+
+	/// <summary> Add health without invoking damage effects. </summary>
+	public void AddHealth(float amount)
+	{ CurrentHp += amount; }
 
 	/// <summary> Deals damage to this HealthBox. </summary>
 	/// <param name="damage"> Amount of damage dealt. </param>
